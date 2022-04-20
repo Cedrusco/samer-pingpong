@@ -1,4 +1,4 @@
-package com.cedrus.samercsaleh.pingpong.pingpong;
+package com.cedrus.samercsaleh.pingpong;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
