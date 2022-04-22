@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor // generates a constructor with 1 parameter for each field in your class
+@AllArgsConstructor
 
 public class PingPongBall {
     private String id;
