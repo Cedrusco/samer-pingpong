@@ -85,12 +85,13 @@ public class TopologyProvider {
                 log.debug("Will Sleep for {} seconds.", sleepSecs);
                 try {
                     Thread.sleep(sleepSecs * 1000L);
-                    return value;
+                   // return value;
                 } catch (InterruptedException e) {
                     log.error("Interrupted during Sleep.", e);
                 }
                 final PingPongBall pingPongBall = deserializeBall(value);
                 pingPongBall.switchTarget();
+                log.info("target switched");
                 return serializeBall(pingPongBall);
             }
 
